@@ -8,30 +8,55 @@ coverY: 0
 
 ## O que é?
 
-Para fazer face a despesas correntes iniciais, e pagar a quem já teve de adquirir recursos/serviços para utilização pela portuDAO (registo de domínios, criação de provas de conceito, etc.), foi criado um endereço (na **Binance Smart Chain - BSC**) para o qual qualquer pessoa pode enviar voluntariamente **BUSD** e desta forma criar um pequeno fundo de maneio.
+O Collateral Safe consiste num mecanismo criado para fazer face às despesas ocorridas pela PortuDAO durante a sua fase de fundação. Quem quiser pode apoiar a DAO enviando fundos para a carteira e dessa forma contribuir para a criação de um fundo de maneio.
 
-Não foi estipulado um valor fixo de contribuição, sendo este de acordo com as possibilidades de cada um, mas vários membros mencionaram um valor de referência e desejável de **100 BUSD**.
+## Carteira
 
-É assim um recebimento de contribuições de membros, que **sem esperar nada em troca (ainda que futuramente possa ser devolvida parte/totalidade das contribuições ou distribuídos tokens da DAO)**, estarão a ajudar o arranque deste projecto enquanto não está em funcionamento o _tokenomics_ (economia interna de tokens do ecossistema da DAO) proposto.
+| Endereço                                   | Rede                |
+|--------------------------------------------|---------------------|
+| [0xeb666Bf85EB6Fa9f85Bc7A10613eD7652b4D925e](https://bscscan.com/address/0xeb666Bf85EB6Fa9f85Bc7A10613eD7652b4D925e) | Binance Smart Chain |
 
-{% hint style="info" %}
-**Endereço BSC:** [0xeb666Bf85EB6Fa9f85Bc7A10613eD7652b4D925e](https://bscscan.com/address/0xeb666Bf85EB6Fa9f85Bc7A10613eD7652b4D925e#tokentxns)
-{% endhint %}
+## Depositar fundos no Collateral Safe
 
-## Como é gerida?
+De forma totalmente volutária, qualquer um pode enviar fundos para o endereço especificado em [cima](#carteira).
 
-Trata-se de uma carteira _multisig_, com um _threshold_ 5 de 9, no serviço [Gnosis Safe](https://gnosis-safe.io), em que são necessárias 5 assinaturas de 9 para aprovar uma transacção/pagamento.
+* Não existe um limite por participante
+* São aceites todos os tokens suportados pela rede Binance Smart Chain, tais como `BUSD`, `USDT`, `USDC`, `DAI`, `ETH`, `BNB`, entre outros
 
-Essa transacção/pagamento terá de ser baseada numa "proposta de despesa" que a detalhe e justifique, tendo sido esta votada e aprovada pela DAO.
+### Vantagens em participar
 
-### Responsáveis por assinaturas:
+Contribuir para o Collateral Safe é uma forma simples de apoiar a PortuDAO. Os participantes desta iniciativa têm garantido um _airdrop_ de tokens da PortuDAO, caso esta avance em definitivo no futuro.
 
-* CristinhO (João CriptoDealer)
-* CryptoGeekPT
-* DiogoLinoPT
-* franciscom0301 (Francisco M)
-* Miguel\_Vilas\_Boas
-* nelsonlopes
-* pedro\_ferreir\_a
-* pmbrsantos (Paulo Santoshi)
-* therealsatoshi1 (Pedro Febrero)
+Os fundos do Collaterial Safe só serão usados para o reembolso dos custos caso a PortuDAO não avance em definitivo. Se, após o reembolso desses custos, restarem fundos na carteira eles serão devolvidos aos participantes em função da proporção do montante enviado.
+
+### Cuidados a ter
+
+* O envio de fundos deve ser realizado exclusivamente partir de carteiras próprias
+* Não enviar fundos a partir de _Exchanges_ ou carteiras centralizadas
+
+> ⚠️ A PortuDAO não se responsabiliza pelo envio de fundos. Enviar fundos através de uma _Exchange_ ou por qualquer outra carteira centralizada pode levar à perda de benefícios futuros.
+
+## Governança
+
+Trata-se de uma carteira `multisig`, com um `threshold` 5 de 9, no serviço [Gnosis Safe](https://gnosis-safe.io), em que são necessárias 5 assinaturas de 9 para o levantamento de fundos.
+
+## Gestão
+
+* A PortuDAO mantém um registo de todos os custos ocorridos com infraestrutura ou serviços necessários à sua constituição
+* A PortuDAO também mantém um registo em `BUSD` de todos os fundos enviados para a carteira, assim como da sua origem
+* O reembolso desses custos só se concretiza mediante a apresentação de proposta e consequente aceitação por parte da DAO, o que acontece através do método do votação pelos seus membros, com a garantia que só são aceites despesas com um peso superior a `60%` dos votos
+* O reembolso dos custos só vigorará caso o projeto de formação da PortuDAO não seja concretizado com sucesso
+
+## Endereços responsáveis pela carteira _multisig_
+
+```text
+0xbeb3502e6ea7603c57550d23ad93e786261a6272
+0x542e792b306e74a7f91670a4cb4d3ad29e405367
+0x27b231a56a4a8070993b98d295ebe3972753d7d7
+0xdd081bfe63165f62e37e3d968c630c90380a7b6c
+0xfb5ec89ee8a00bcb39e07aa70d3ec060de0f6865
+0x487fc2e3fec1e0d32d06996ecb25a5a37d391573
+0xae2bebcda25a85ea9d0f804fc478c0c2182e40d3
+0x2decfefde0505a4890de68f51faffede03ce1e2c
+0x35ce03cbcfd6d7ab21f1725760eaf2c0fca9f387
+```
