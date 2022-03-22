@@ -30,25 +30,19 @@ Contribuir para o *Collateral Safe* é uma forma simples de apoiar a PortuDAO. O
 
 Qualquer um pode, de forma totalmente voluntária, enviar fundos para o endereço referido acima, utilizando a rede *BNB Smart Chain* (anteriormente *Binance Smart Chain*) e sabendo que:
 
-* São esperados todos os *tokens* suportados pela rede BSC, com preferência pelos que tenham valor equiparado a 1 dólar, tais como `BUSD`, `USDT`, `USDC`, `DAI`.
-* Não está definido um valor fixo por participação, existindo um valor recomendado de **100 USD**.
+* Sugerimos que envies qualquer token representativo de uma stablecoin, como são o caso de `BUSD`, `USDT`, `USDC`, `DAI`
+* Não há limite à participação
 
 ### Cuidados a ter
 
-* Enviar fundos a partir de carteiras pessoais, em exclusivo.
-
-* Como exemplo, a [Metamask](https://metamask.io/) ou uma [hardware wallet através da interface da Metamask](https://www.ledger.com/academy/security/the-safest-way-to-use-metamask).
-
-* Não devem ser assim enviados fundos directamente a partir de *Exchanges* ou carteiras sem acesso às chaves privadas, pois isso levará à perda de possíveis benefícios futuros.
+* Envia sempre os fundos a partir de uma carteira pessoal e não custodial
+* Por exemplo, a [Metamask](https://metamask.io/) ou uma [hardware wallet através da interface da Metamask](https://www.ledger.com/academy/security/the-safest-way-to-use-metamask)
+* ⚠️ Nunca uses a carteira de uma Exchange
 
 ## Gestão de movimentos
 
 * Trata-se de uma carteira *multisig* (de múltiplas assinaturas), em que são necessárias 5 assinaturas de 9 possíveis.
-
 * A PortuDAO mantém um registo de todos os custos ocorridos e de todos os serviços que foram necessários à sua constituição.
-
-* A PortuDAO mantém também um registo em *USD* de todos os fundos enviados para a carteira, tal como a sua origem.
-
-* O reembolso desses custos só se concretiza mediante a apresentação de proposta de despesa e consequente aceitação/aprovação pela DAO, pelo método de votação em vigor.
-
-* O reembolso dos custos só vigorará caso o projeto de formação da PortuDAO não seja concretizado com sucesso.
+* A portuDAO mantém também um registo em *USD* de todos os fundos enviados para a carteira, tal como a sua origem.
+* O reembolso desses custos só se concretiza mediante a apresentação da proposta de despesa e consequente aceitação/aprovação pela DAO, pelo método de votação em vigor.
+* O reembolso dos custos só vigorará caso o projeto de formação da portuDAO não seja concretizado com sucesso.
